@@ -40,10 +40,10 @@
 }
 
 
-@font-face {
+/* @font-face {
     font-family: 'cottage';
     src: url('../fonts/DreamCottage-Regular.woff');
-}
+} */
 
 
 html, body, div, span, applet, object, iframe,
@@ -166,8 +166,7 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	/* color: #4D612E; */
-	color: red;
+	color: #4D612E;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
