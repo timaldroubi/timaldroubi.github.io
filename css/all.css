@@ -40,11 +40,21 @@
 }
 
 
-/* @font-face {
+@font-face {
     font-family: 'cottage';
-    src: url('../fonts/DreamCottage-Regular.woff');
-} */
+    src: url('../fonts/DreamCottage-Regular.woff') format('woff'),
+         url('../fonts/DreamCottage-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'cottage_italic';
+    src: url('../fonts/DreamCottage-Italic.woff') format('woff'),
+         url('../fonts/DreamCottage-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -164,7 +174,7 @@ a:hover{text-decoration:underline;}
 }
 .logo {
 	text-align:center;
-	font-family: 'novecentosanswide';
+	font-family: 'cottage';
 	font-weight:bold;
 	color: #4D612E;
 	font-size: 72px;
@@ -172,6 +182,7 @@ a:hover{text-decoration:underline;}
 	display: block;
 	text-transform: uppercase;
 	margin: 85px 0 23px;
+	letter-spacing: 7px;
 }
 #nav {
 	position: relative;
@@ -198,8 +209,8 @@ a:hover{text-decoration:underline;}
 	font-weight: normal;
 }
 #nav ul a:hover,#nav ul a.active{
-	color: #fff;
-	border-bottom: 4px solid #fff;
+	color: #fff8bb;
+	border-bottom: 4px solid #fff8bb;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -270,7 +281,7 @@ h2.slogan{
 .box_timeline ul li .date span{
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #fff;
+	color: #fff8bb;
 	font-size: 14px;
 	line-height: 16px;
 	display: block;
@@ -327,7 +338,7 @@ h2.slogan{
 }
 .progress li span{
 	background: #dce22f;
-	color: #fff;
+	color: #fff8bb;
 	text-transform:uppercase;
 	display: block;
 	font-family: 'novecentosanswide';
@@ -485,7 +496,7 @@ transition: all 0.5s ease-in-out;
 .item .item-content h4{
 	display: block;
 	background: url(../images/bg_white_border.gif) no-repeat 50% 100%;
-	color: #fff;
+	color: #fff8bb;
 	text-transform: uppercase;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
@@ -496,7 +507,7 @@ transition: all 0.5s ease-in-out;
 	margin: 0 0 15px;
 }
 .item .item-content p{
-	color: #fff;
+	color: #fff8bb;
 	text-align: center;
 	display: block;
 	font-size: 15px;
@@ -519,7 +530,7 @@ transition: all 0.5s ease-in-out;
 	margin: 54px 0 0 0;
 }
 .box_contact span{
-	color: #fff;
+	color: #fff8bb;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
@@ -537,7 +548,7 @@ transition: all 0.5s ease-in-out;
     width:100%;
     overflow:hidden;
     display:table-footer-group;
-    background:#fff;
+    background:#fff8bb;
 }
 .footer-content {
 	max-width: 1170px;
