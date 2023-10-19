@@ -135,9 +135,9 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width:100%;
     display:table-row;
-    background: #c8a2c8;
+    background: #dce22f;
 }
-.wrapper-holder.grey{background: #28292b;}
+.wrapper-holder.grey{background: #fff8bb;}
 #header {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -158,7 +158,7 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #fff;
+	color: #4D612E;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
@@ -185,7 +185,7 @@ a:hover{text-decoration:underline;}
 	line-height: 20px;
 	text-transform: uppercase;
 	padding: 0 0 10px;
-	border-bottom: 4px solid #c8a2c8;
+	border-bottom: 4px solid black;
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
@@ -205,7 +205,7 @@ h2.slogan{
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #391e41;
+	color: #4D612E;
 	padding: 34px 0 50px 0;
 	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
 }
@@ -225,7 +225,7 @@ h2.slogan{
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #fff;
+	color: #4D612E;
 	margin: 0 0 81px;
 }
 .box_timeline_holder{
@@ -271,7 +271,7 @@ h2.slogan{
 }
 .box_timeline h3{
 	font-family: 'novecento_sans_widemedium';
-	color: #c8a2c8;
+	color: #dce22f;
 	font-size: 14px;
 	line-height: 16px;
 	display: block;
@@ -318,7 +318,7 @@ h2.slogan{
 	margin: 0 0 27px;
 }
 .progress li span{
-	background: #c8a2c8;
+	background: #dce22f;
 	color: #fff;
 	text-transform:uppercase;
 	display: block;
@@ -395,8 +395,8 @@ h2.slogan{
 	font-weight: normal;
 }
 .sub_nav a:hover,.sub_nav a.active{
-	color: #c8a2c8;
-	border-bottom: 4px solid #c8a2c8;
+	color: #dce22f;
+	border-bottom: 4px solid #dce22f;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -416,8 +416,8 @@ transition: all 0.5s ease-in-out;
 	font-weight: normal;
 }
 .sub_nav li:hover,.sub_nav .active {
-	color: #c8a2c8;
-	border-bottom: 4px solid #c8a2c8;
+	color: #dce22f;
+	border-bottom: 4px solid #dce22f;
 	text-decoration: none;
 	cursor: pointer;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -556,7 +556,7 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li:first-child{margin: 0;}
 .footer-content .social li:hover{
-	background: #c8a2c8;
+	background: #dce22f;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
@@ -720,3 +720,24 @@ transition: all 0.5s ease-in-out;
 	}
 /* end add	 */
 }
+
+/* .title-description{
+	float: left;
+} */
+
+.bullet-point{
+	height: 40px;
+	float: left;
+	margin-right: 1pc;
+}
+
+.title{
+	float: left;
+	font-size: large;
+
+}
+
+.date{
+	float: right;
+}
+
