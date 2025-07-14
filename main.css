@@ -91,3 +91,9 @@ body{
     text-align: center;
 }
 
+@media (max-width: 767px) {
+    .gallery_product {
+      width: 100% !important;
+      float: none !important;
+    }
+  }
